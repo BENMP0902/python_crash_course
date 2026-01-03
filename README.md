@@ -4,6 +4,10 @@
 ![Linux](https://img.shields.io/badge/Linux-Kali-black?style=for-the-badge&logo=linux&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Learning-green?style=for-the-badge)
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue)](https://www.linkedin.com/in/benjam%C3%ADn-mart%C3%ADnez-p%C3%A9rez-17949434b/)
+[![GitHub followers](https://img.shields.io/github/followers/tuusuario?label=Follow&style=social)](https://github.com/BENMP0902)
+[![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/tuusuario.png)](https://tryhackme.com/p/benjamin2401128)
+
 Este repositorio documenta mi camino de aprendizaje intensivo desde los fundamentos de Python hasta la Ingeniería de Machine Learning (MLOps). Cada módulo contiene ejercicios prácticos resueltos y documentados.
 
 ## 🚀 Cómo usar este repositorio
