@@ -13,3 +13,5 @@ for pizza in pizzas:
 
 # Parte 3: Fuera del bucle (sin identificacion)
 print("\nRealmente amo las pizzas")
+
+# Se realiza el mismo proceso con nombres de animales en el 4-2
