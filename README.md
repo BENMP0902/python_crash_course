@@ -36,9 +36,9 @@ Este repositorio documenta mi camino de aprendizaje intensivo desde los fundamen
 
     [x] Módulo 2: Control de Flujo (If, For, While).
 
-    [ ] Módulo 3: Estructuras de Datos (Listas y Diccionarios).
+    [x] Módulo 3: Estructuras de Datos (Listas y Diccionarios).
 
-    [ ] Módulo 4: Funciones y Modularidad.
+    [x] Módulo 4: Funciones y Modularidad.
 
     PARTE II: Programación Robusta (Ingeniería)
     [ ] Módulo 5: Manejo de Errores y Archivos.
