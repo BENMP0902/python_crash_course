@@ -17,3 +17,15 @@ def favorite_book(title):
 # Llamadas a funciones
 display_message()
 favorite_book("python crash course")
+
+# 8-3 Camisetas(Argumentos Posicionales vs Keyword):
+def make_shirt(size, message):
+    """Resumen de la talla y el mensaje de la camiseta."""
+    print(f"\nVoy a hacer una camíseta talla {size}.")
+    print(f"Llevará estampado el mensaje: '{message}.")
+
+# 1. Argumentos Posicionales (El orden importa: primera talla, luego mensaje)
+make_shirt('L','I Love Python')
+
+# 2. Argumenso de Palabra Clave (El orden No importa)
+make_shirt(message='Code Is Life', size='S')
