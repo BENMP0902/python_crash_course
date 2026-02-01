@@ -1,0 +1,3 @@
+In Python you can build web apps.
+In Python you can handle data.
+In Python you can write scripts.
