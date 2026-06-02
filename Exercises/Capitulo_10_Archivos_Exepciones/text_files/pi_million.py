@@ -9,5 +9,5 @@ pi_string = ''
 for line in lines:
     pi_string += line.lstrip()
 
-print(pi_string)
+print(f"{pi_string[:52]}...")
 print(len(pi_string))
