@@ -103,3 +103,44 @@ def favorite_number1():
 
 if __name__ == '__main__':
     favorite_number1()
+
+#---------------------------------------------------------------------------------
+# Versión con opción de actualizar
+def get_stored_number2():
+    """Obtiene el número almacenado."""
+    path = Path('favorite_number.json')
+    
+    try:
+        contents = path.read_text(encoding='utf-8')
+        return json.loads(contents)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
+
+def save_number2(number):
+    """Guarda el número en JSON."""
+    path = Path('favorite_number.json')
+    path.write_text(json.dumps(number), encoding='utf-8')
+
+def favorite_number2():
+    """Muestra o solicita número favorito con opción de cambiar."""
+    number = get_stored_number2()
+    
+    if number is not None:
+        print(f"🎯 Tu número favorito guardado es: {number}")
+        
+        change = input("¿Quieres cambiarlo? (s/n): ").strip().lower()
+        
+        if change == 's':
+            new_number = input("Ingresa tu nuevo número favorito: ")
+            save_number2(new_number)
+            print(f"✓ Actualizado a {new_number}.")
+        else:
+            print("✓ Mantenemos tu número favorito actual.")
+    else:
+        print("👋 No tengo ningún número favorito guardado.")
+        number = input("¿Cuál es tu número favorito? ")
+        save_number2(number)
+        print(f"✓ Guardado: {number}")
+
+if __name__ == '__main__':
+    favorite_number2()

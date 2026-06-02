@@ -3,8 +3,11 @@
 # iterando sobre el objeto archivado y almacenando las lineas en una lista.
 from pathlib import Path
 
-# Definimos la ruta al archivo
-path = Path('learning_python.txt')
+# __file__ ruta script actual .parent sube al directorio que lo contiene
+BASE_DIR = Path(__file__).parent
+
+# Definimos la ruta al archivo, el .txt vive en text_files, hermano del script
+path = BASE_DIR / 'text_files' / 'learning_python.txt'
 
 # Leemos el documento de forma segura
 if path.exists():
