@@ -1,0 +1,10 @@
+{
+    "luis": {
+        "username": "luis",
+        "full_name": "Luis Perez Perez",
+        "email": "correo@ejemplo.com",
+        "created_at": "2026-11-17 13:32:08",
+        "last_login": "2026-11-17 13:32:08",
+        "login_count": 1
+    }
+}

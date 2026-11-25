@@ -1,3 +1,5 @@
-In Python you can build web apps.
-In Python you can handle data.
-In Python you can write scripts.
+In Python you can store text un variables using strings.
+In Pythin you can organize data in lists and dictionaries.
+In Python ypu can write loops to repeat actions over a collection.
+In Python you can build reusable logic with functions.
+In Python you can model real-world things with classes.
