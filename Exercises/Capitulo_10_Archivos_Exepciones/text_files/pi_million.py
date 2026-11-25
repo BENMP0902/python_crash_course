@@ -1,7 +1,7 @@
 from pathlib import Path
 
-path = Path('pi_million_digits.txt')
-contents = path.read_text()
+path = Path(__file__).parent / 'pi_million_digits.txt'
+contents = path.read_text(encoding='utf-8')
 
 lines = contents.splitlines()
 pi_string = ''
